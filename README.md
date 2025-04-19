@@ -35,7 +35,7 @@ Used Python libraries (e.g., Matplotlib, Seaborn, WordCloud) to explore and visu
 ---
 
 ## 📁 Dataset  
-*File:* clean_job_descriptions.csv  
+*File:* clean_job_descriptions.csv (https://drive.google.com/file/d/1KY-_3MoRYHhgqOorH-PcX4KVy3sciq0f/view?usp=sharing)
 *Columns:*  
 - Title: Job title  
 - Company Name: Hiring company  
@@ -48,7 +48,7 @@ Used Python libraries (e.g., Matplotlib, Seaborn, WordCloud) to explore and visu
 ## ⚙ How to Run the Project
 
 1. *Data Loading & Cleaning*  
-   - Download job_descriptions_not_clean.csv from Kaggle  
+   - Download job_descriptions_not_clean.csv from Kaggle (https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset)
    - Load and clean data using Pandas  
    - Save cleaned file as clean_job_descriptions.csv  
 
