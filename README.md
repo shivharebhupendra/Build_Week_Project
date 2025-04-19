@@ -87,12 +87,12 @@ ranked companies based on how often they post jobs, highlighting the most active
 ---
 
 ## 🔗 Project Repository  
-> [GitHub Repository] (https://github.com/Manishdebnath99/Build_Week_Project)
+> GitHub Repository : (https://github.com/Manishdebnath99/Build_Week_Project)
 
 ---
 
 ## 👥 Contributors  
-- [Er. Manish Debnath]  (https://github.com/Manishdebnath99)
-- [Er. Bhupendra Shivhare] (https://github.com/shivharebhupendra)
-- [Er. Ashwin Kumar] (https://github.com/Ashwin1238-stack)
+- Er. Manish Debnath  (https://github.com/Manishdebnath99)
+- Er. Bhupendra Shivhare (https://github.com/shivharebhupendra)
+- Er. Ashwin Kumar (https://github.com/Ashwin1238-stack)
 
