@@ -77,12 +77,12 @@ Used Python libraries (e.g., Matplotlib, Seaborn, WordCloud) to explore and visu
 ---
 
 ## 🔗 Project Repository  
-> Add your GitHub repo link here
+> GitHub Repository (https://github.com/Manishdebnath99/Build_Week_Project)
 
 ---
 
 ## 👥 Contributors  
-- Er. Manish Debnath  
-- Er. Bhupendra Shivhare  
-- Er. Ashwin Kumar
+- Er. Manish Debnath  (https://github.com/Manishdebnath99)
+- Er. Bhupendra Shivhare (https://github.com/shivharebhupendra)
+- Er. Ashwin Kumar (https://github.com/Ashwin1238-stack)
 
