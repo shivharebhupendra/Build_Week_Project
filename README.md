@@ -36,6 +36,7 @@ Used Python libraries (e.g., Matplotlib, Seaborn, WordCloud) to explore and visu
 
 ## 📁 Dataset  
 *File:* clean_job_descriptions.csv (https://drive.google.com/file/d/1KY-_3MoRYHhgqOorH-PcX4KVy3sciq0f/view?usp=sharing)
+
 *Columns:*  
 - Title: Job title  
 - Company Name: Hiring company  
