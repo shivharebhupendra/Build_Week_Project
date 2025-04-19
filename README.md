@@ -72,17 +72,27 @@ Used Python libraries (e.g., Matplotlib, Seaborn, WordCloud) to explore and visu
 ---
 
 ## 🔍 Insights from Analysis  
-> Add summarized insights here from SQL and EDA results
+- 👔 Most Common Job Titles
+Identified the top 10 recurring job titles to understand what roles are in high demand.
+
+- 📍 Count of Jobs per Location
+Aggregated job postings by location. Metro cities usually lead the count.
+
+- 💰 Jobs with Salaries Greater than ₹10 LPA
+Filtered listings to show only high-paying jobs, helping to identify roles and companies offering premium compensation.
+
+- 🏢 Most Frequently Hiring Companies
+Ranked companies based on how often they post jobs, highlighting the most active recruiters in the market.
 
 ---
 
 ## 🔗 Project Repository  
-> GitHub Repository (https://github.com/Manishdebnath99/Build_Week_Project)
+> [GitHub Repository] (https://github.com/Manishdebnath99/Build_Week_Project)
 
 ---
 
 ## 👥 Contributors  
-- Er. Manish Debnath  (https://github.com/Manishdebnath99)
-- Er. Bhupendra Shivhare (https://github.com/shivharebhupendra)
-- Er. Ashwin Kumar (https://github.com/Ashwin1238-stack)
+- [Er. Manish Debnath]  (https://github.com/Manishdebnath99)
+- [Er. Bhupendra Shivhare] (https://github.com/shivharebhupendra)
+- [Er. Ashwin Kumar] (https://github.com/Ashwin1238-stack)
 
