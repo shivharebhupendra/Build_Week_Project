@@ -91,7 +91,19 @@ ranked companies based on how often they post jobs, highlighting the most active
 > GitHub Repository : (https://github.com/Manishdebnath99/Build_Week_Project)
 
 ---
-
+## 📁 Project Files
+--------------------------------------------------------------------------------------------------------------
+| File Name                                | Description                                                     |
+|------------------------------------------|-----------------------------------------------------------------|
+| 1 - Data Loading, Cleaning, and Representation.ipynb    | Load raw data, clean it, and save as CSV         |
+| 2 - SQL_Connection.ipynb                                | Connect Jupyter to SQL and insert data           |
+| 3 - SQL_Analysis.sql                                    | SQL queries for job data insights                |
+| 4 - EDA Data Visualization.ipynb                        | Visualize trends with charts and plots           |
+| clean_job_descriptions.csv                              | Cleaned dataset with key job info                |
+| Build_Week_Presentation.pdf                             | Project summary and key insights (presentation)  |
+| job_descriptions_not_clean                              | Data from Kaggle                                 |
+--------------------------------------------------------------------------------------------------------------
+---
 ## 👥 Contributors  
 - Er. Manish Debnath  (https://github.com/Manishdebnath99)
 - Er. Bhupendra Shivhare (https://github.com/shivharebhupendra)
