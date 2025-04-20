@@ -1,4 +1,4 @@
-# 💼 SAL_BW_Project_1 – Job Descriptions Analysis
+# 💼 SAL_BW_Project – Job Descriptions Analysis
 
 ## 📌 Project Overview  
 This project focuses on analyzing job description data to derive meaningful insights. It includes:
