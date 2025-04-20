@@ -73,17 +73,19 @@ Used Python libraries (e.g., Matplotlib, Seaborn, WordCloud) to explore and visu
 ---
 
 ## 🔍 Insights from Analysis  
-👔 Most Common Job Titles
-identified the top 10 recurring job titles to understand what roles are in high demand.
+📍 Count of Jobs per Location calculated and visualized job posting counts across locations to identify metro city dominance.
 
-📍 Count of Jobs per Location
-aggregated job postings by location. Metro cities usually lead the count.
+💰 Salary Distribution by Range categorized average salaries into defined brackets to understand the spread of compensation levels.
 
-💰 Jobs with Salaries Greater than ₹10 LPA
-filtered listings to show only high-paying jobs, helping to identify roles and companies offering premium compensation.
+📦 Most Common Keywords in Job Titles extracted the top 10 recurring words in job titles to identify high-demand roles and skills.
 
-🏢 Most Frequently Hiring Companies
-ranked companies based on how often they post jobs, highlighting the most active recruiters in the market.
+🌆 Top 10 Locations for Jobs plotted the top cities by number of job postings, highlighting regional hiring trends.
+
+🔑 Top Keywords in Job Titles (Bar Plot) visualized the frequency of popular keywords to emphasize recurring roles and industry trends.
+
+📉 Salary Outliers Detected created a boxplot to identify outliers and understand salary variation among job listings.
+
+🗓 Daily Job Posting Trends converted and grouped posting dates to reveal patterns in job posting frequency over time.
 
 ---
 
