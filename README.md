@@ -103,6 +103,7 @@ Used Python libraries (e.g., Matplotlib, Seaborn, WordCloud) to explore and visu
 | 4 - EDA Data Visualization.ipynb                        | Visualize trends with charts and plots           |
 | clean_job_descriptions.csv                              | Cleaned dataset with key job info                |
 | Build_Week_Presentation.pdf                             | Project summary and key insights (presentation)  |
+| presentation_job_description_analysis.mp4               | Project presentation video                       |
 | job_descriptions_not_clean                              | Data from Kaggle                                 |
 --------------------------------------------------------------------------------------------------------------
 ---
