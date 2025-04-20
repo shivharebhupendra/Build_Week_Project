@@ -54,16 +54,16 @@ Used Python libraries (e.g., Matplotlib, Seaborn, WordCloud) to explore and visu
    - Save cleaned file as clean_job_descriptions.csv  
 
 2. *SQL Setup*  
-   - Create a database and empty table in SQL Workbench  
-   - Use file no. 2_SQL_Connection script to connect Jupyter to SQL  
+   - Create a database and empty table in MySQL Workbench  
+   - Use file no. 2-SQL_Connection script to connect Jupyter notebook with MySQL workbench
    - Import cleaned data into SQL  
 
 3. *SQL Analysis*  
-   - Run file no. 3_SQL_Analysis notebook  
+   - Run file no. 3-SQL_Analysis  
    - Perform queries to generate job market insights  
 
 4. *EDA & Visualization*  
-   - Run 4 - EDA Data Visualization notebook  
+   - Run file no. 4-EDA Data Visualization notebook  
    - Generate visualizations:  
      - 📊 Bar chart: Top job locations  
      - ☁ Word cloud: Common keywords  
