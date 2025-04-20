@@ -55,11 +55,11 @@ Used Python libraries (e.g., Matplotlib, Seaborn, WordCloud) to explore and visu
 
 2. *SQL Setup*  
    - Create a database and empty table in SQL Workbench  
-   - Use 2 - SQL_Connection script to connect Jupyter to SQL  
+   - Use file no. 2_SQL_Connection script to connect Jupyter to SQL  
    - Import cleaned data into SQL  
 
 3. *SQL Analysis*  
-   - Run 3 - SQL_Analysis notebook  
+   - Run file no. 3_SQL_Analysis notebook  
    - Perform queries to generate job market insights  
 
 4. *EDA & Visualization*  
