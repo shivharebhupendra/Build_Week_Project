@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import zipfile
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -10,13 +11,17 @@ warnings.filterwarnings("ignore")
 st.set_page_config(page_title="Job Descriptions Analysis", layout="wide")
 st.title("Job Descriptions Analysis App")
 
-# load data
+
+# Load data from ZIP using @st.cache_data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("clean_job_descriptions.csv")
+    with zipfile.ZipFile("clean_job_descriptions.zip", 'r') as zip_ref:
+        with zip_ref.open("clean_job_descriptions.csv") as file:
+            df = pd.read_csv(file)
     return df
 
 df = load_data()
+
 
 # show raw data
 st.subheader("Clean Data")
