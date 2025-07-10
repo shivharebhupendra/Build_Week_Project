@@ -59,6 +59,7 @@ word_df = pd.DataFrame(common_words, columns=['Keyword', 'Count'])
 st.subheader("Common Keywords in Job Titles")
 fig2, ax2 = plt.subplots()
 sns.barplot(x=word_df['Keyword'], y=word_df['Count'], color='skyblue', ax=ax2)
+plt.xticks(rotation=45)
 st.pyplot(fig2)
 
 st.subheader("Salary Range")
@@ -72,6 +73,7 @@ daily_posts = df.groupby(df['Date Posted'].dt.date).size()
 st.subheader("job Posted Over Days/Weeks")
 fig4, ax4 = plt.subplots()
 daily_posts.plot(kind='line', color='teal', ax=ax4)
+plt.xticks(rotation=45)
 st.pyplot(fig4)
 
 # github link
