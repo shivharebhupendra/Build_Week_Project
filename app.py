@@ -40,7 +40,7 @@ location_counts = df['Location'].value_counts().reset_index()
 location_counts.columns = ['Location', 'Job Count']
 
 # Display top 10 locations with the most jobs
-top_locations = location_counts.head(10)
+top_locations = location_counts.head()
 st.subheader("Top Job Locations")
 fig1, ax1 = plt.subplots()
 sns.barplot(data=top_locations, x='Location', y='Job Count', palette='viridis',ax=ax1)
@@ -52,7 +52,7 @@ words = df['Title'].dropna().str.lower().str.split()
 
 # Step 2: Count word frequencies
 all_words = [word for title in words for word in title]
-common_words = Counter(all_words).most_common(20)
+common_words = Counter(all_words).most_common(10)
 
 # Step 3: Convert to DataFrame for plotting
 word_df = pd.DataFrame(common_words, columns=['Keyword', 'Count'])
@@ -67,6 +67,7 @@ sns.boxplot(x=df['Average Salary'], color='red', ax = ax3)
 st.pyplot(fig3)
 
 # Group by date and count the number of jobs posted each day
+df['Date Posted'] = pd.to_datetime(df['Date Posted'], errors='coerce')
 daily_posts = df.groupby(df['Date Posted'].dt.date).size()
 st.subheader("job Posted Over Days/Weeks")
 fig4, ax4 = plt.subplots()
