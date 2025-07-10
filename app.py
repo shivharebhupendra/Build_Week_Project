@@ -58,7 +58,7 @@ common_words = Counter(all_words).most_common(20)
 word_df = pd.DataFrame(common_words, columns=['Keyword', 'Count'])
 st.subheader("Common Keywords in Job Titles")
 fig2, ax2 = plt.subplots()
-sns.barplot(word_df['Keyword'], word_df['Count'], color='skyblue', ax=ax2)
+sns.barplot(x=word_df['Keyword'], y=word_df['Count'], color='skyblue', ax=ax2)
 st.pyplot(fig2)
 
 st.subheader("Salary Range")
